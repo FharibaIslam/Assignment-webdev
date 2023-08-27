@@ -11,8 +11,11 @@ h1{
     transition: 3s;
     border-radius: 10px;
     background-color: black;
+   
+    
 }
 .cal_main:hover{
+
     background-color: antiquewhite;
     box-shadow: 0 20px 30px #d3e0e0
     ;
@@ -26,15 +29,23 @@ h1{
     padding: 0 5px;
     letter-spacing: 2px;
     border-radius: 10px;
+    margin: 5px;
+    margin-top: 40px;
 
     
 }
+.cal_body{
+    margin-top: 40px;
+    
+}
+
 .cal_body .btn{
     width: 88px;
     height: 70px;
     background-color: #546666;
     color: azure;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 .cal_body .btn:hover{
     background-color: black;
