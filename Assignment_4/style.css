@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+body
+{
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif; 
+}
+.menu-bar
+{
+    background: transparent;
+    text-align: center;
+   
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+   
+}
+.menu-bar ul li 
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(217, 215, 224);
+}
+.active, .menu-bar ul li:hover
+{
+    background: rgb(62, 62, 110);
+    border-radius: 3px;
+
+}
+.menu-bar{
+    margin-right: 8px;
+}
+.sub-menu1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background: rgb(128, 128, 168);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius:0;
+    text-align: left;
+
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+container{
+    width: 960px;
+    margin: 0 auto;
+    
+    
+}
+.box1{
+    width: 450px;
+    float: left;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;   
+}
+.boxh1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.boxp{
+    text-align:justify;
+    padding: 0 40 80 40;
+}
+.box2{
+    width: 450px;
+    float: left;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    
+}
